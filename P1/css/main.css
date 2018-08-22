@@ -3,12 +3,47 @@
 }
 
 .bg-blue {
-  background-color: #87d4e6;
+  background-color: #87d4e657;
+  border-color: #87d4e6;
 }
 
-#home-header{
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
+.sky-blue-header{
+  background-color: #87d4e6;
+  height: 130px;
+  min-width: 100%;
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.balloons-main{
+  min-width: 100%;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.center-text{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F1FAEE;
+}
+
+.center-bottom-medium{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F1FAEE;
+}
+
+.center-bottom{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F1FAEE;
 }
