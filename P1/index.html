@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Delius+Unicase|Leckerli+One|Merienda|Short+Stack|Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Leckerli+One|Short+Stack|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" />
   <title>Tefa's Web Page</title>
 </head>
 
@@ -28,7 +28,7 @@
         <div class="justify-content-between mr-auto">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item top-title">
-              <a class="nav-link" href="#">About!</a>
+              <a class="nav-link" href="#toptoppage">About!</a>
             </li>
             <li class="nav-item">
               <a class="nav-link top-title" href="#">Projects!</a>
@@ -42,35 +42,58 @@
     </nav>
   </header>
   <!-- Fake header -->
-  <div class="container sky-blue-header">
+  <div class="container sky-blue-header" id="toptoppage">
   </div>
   <!-- Section for the welcome homepage -->
   <section id="home-welcome">
     <div class="container balloons-main">
       <img src="./files/main_background.jpg" class="img-fluid" />
       <div class="center-text">
-        <h1 id="welcome-title"> Hi there! </h1>
+        <h1> I'm Stephannie! </h1>
       </div>
       <div class="center-bottom-medium">
-        <h1> I'm Stephannie</h1>
+        <h2> Biomedical Engineer.</h2>
       </div>
       <div class="center-bottom">
-        <h3> Biomedical Engineer.</h3>
-        <h3> Software and Computing Engineer.</h3>
+        <h2> Software and Computing Engineer.</h2>
       </div>
     </div>
   </section>
   <!-- Photo section plus important info.-->
   <section id="me">
     <div class="container about-me">
-      <div class="row">
+      <!--<div class="row">
         <div class="flex-row justify-content-center mx-auto">
-          <img src="./files/tefa.jpeg" class="img-fluid rounded-circle" height="200" width="200"/>
+          <img src="./files/tefa.jpeg" class="img-fluid rounded-circle" height="200" width="200" />
         </div>
-      </div>
+      </div>-->
       <div class="row paragraph-block">
         <div class="flex-row justify-content-center mx-auto">
-          <p>Based on Bogotá, Colombia</p>
+          <p>From <span class="highlight">web development</span> to <span class="highlight">machine learning</span> and <span class="highlight">computer vision</span> applications.</p>
+        </div>
+      </div>
+      <!--<div class="row paragraph-block-text">
+        <div class="flex-row justify-content-center mx-auto">
+          <p>Let's find out what product we can create with a great design!</p>
+        </div>
+      </div>-->
+      <div class="container">
+        <div class="d-flex flex-row justify-content-around paragraph-block-text even">
+          <div class="p-2 text-center">
+            <img src="./files/web.png" class="img-fluid" height="150" width="150" />
+            <h4><span class="highlight">Web and App Development<span></h4>
+            <p>Freelance work using a great variety of technologies.</p>
+          </div>
+          <div class="p-2 text-center">
+            <img src="./files/ml.png" class="img-fluid" height="150" width="150" />
+            <h4><span class="highlight">Machine Learning<span></h4>
+            <p>Work with biomedical signals for control systems.</p>
+          </div>
+          <div class="p-2 text-center">
+            <img src="./files/robot.png" class="img-fluid" height="150" width="150" />
+            <h4><span class="highlight">Computer Vision Research<span></h4>
+            <p>Active member of the Biomedical Computer Vision Research group <a href="https://biomedicalcomputervision.uniandes.edu.co/" target="_blank" class="highlight-link">@Universidad de los Andes</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -80,24 +103,25 @@
     <div class="container sep">
       <div class="row">
         <div class="flex-row justify-content-center mx-auto">
-          <img src="./files/separator.png" class="img-fluid" height="50" width="200"/>
+          <img src="./files/separator.png" class="img-fluid" height="50" width="200" />
         </div>
       </div>
     </div>
   </section>
-  <!-- What I can do.-->
-  <section id="habilities">
+  <!-- Title section can do-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="justify-content-center mx-auto  title-block">
+          <h1> Skills </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Content section can do-->
+  <section>
     <div class="container can-do">
-      <div class="row paragraph-block">
-        <div class="flex-row justify-content-center mx-auto">
-          <p>Tefa puede hacer<p/>
-        </div>
-      </div>
-      <div class="row paragraph-block">
-        <div class="flex-row justify-content-center mx-auto">
-          <p>Based on Bogotá, Colombia</p>
-        </div>
-      </div>
+      <img src="./files/skills.png" class="img-fluid mx-auto d-block" />
     </div>
   </section>
   <!--Separator between sections-->
@@ -105,7 +129,39 @@
     <div class="container sep">
       <div class="row">
         <div class="flex-row justify-content-center mx-auto">
-          <img src="./files/separator.png" class="img-fluid" height="50" width="200"/>
+          <img src="./files/separator.png" class="img-fluid" height="50" width="200" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Content section can do
+  <section>
+    <div class="container can-do">
+      <div class="d-flex flex-row justify-content-around paragraph-block">
+        <div class="p-2">
+          <div class="caption-text-skills">
+            <img src="./files/pytorch.png" class="img-fluid" height="200" width="200" />
+          </div>
+        </div>
+        <div class="p-2">
+          <div class="caption-text-skills">
+            <img src="./files/python.png" class="img-fluid" height="60" width="60" />
+            <p>Python</p>
+          </div>
+        </div>
+        <div class="p-2">
+          <div class="caption-text-skills">
+            <img src="./files/arduino.png" class="img-fluid" height="130" width="130" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section id="available">
+    <div class="container available">
+      <div class="row paragraph-block">
+        <div class="flex-row justify-content-center mx-auto">
+          <p>Looking forward to <span class="highlight"> develop </span> your projects? </p>
         </div>
       </div>
     </div>
@@ -130,8 +186,8 @@
           </li>
         </ul>
       </div>
-      <div class="navbar flex-grow-0" id="navbarToggler">
-        <div class="justify-content-between mr-auto">
+      <div class="navbar flex-grow-0">
+        <div class="justify-content-end mr-auto">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item top-title">
               <a class="nav-link" href="https://github.com/steff456" target="_blank">
