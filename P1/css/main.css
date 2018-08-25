@@ -136,3 +136,7 @@
 .even{
   flex-wrap: wrap;
 }
+
+.machinel-block{
+  background-color: #F79F79;
+}
