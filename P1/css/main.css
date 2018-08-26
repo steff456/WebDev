@@ -138,5 +138,53 @@
 }
 
 .machinel-block{
-  background-color: #F79F79;
+  background-color: #7A306C;
+  color: white;
+  padding: 4em 0;
+}
+
+.machinel-block p {
+  letter-spacing: 1px;
+}
+
+.machinel-block .p-2 {
+  margin: 0.7em 0;
+}
+
+
+.titleML{
+  font-size: 1.6rem;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+.mandible-block{
+  background-color: #7FC6A4;
+  color: white;
+  padding: 4em 0;
+}
+
+.mandible-block p {
+  letter-spacing: 1px;
+}
+
+.mandible-block .p-2 {
+  margin: 0.7em 0;
+}
+
+.math-exp-block{
+  background-color: #F25F5C;
+  color: white;
+  padding: 4em 0;
+}
+
+.math-exp-block p {
+  letter-spacing: 1px;
+}
+
+.math-exp-block .p-2 {
+  margin: 0.7em 0;
+}
+
+video{
+  width: 100%;
 }
